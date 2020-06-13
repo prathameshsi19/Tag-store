@@ -1,0 +1,26 @@
+@media all and (min-width: 480px) {
+  .Search {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Search form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 320px;
+  }
+
+  .Search .tags h4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    overflow: hidden;
+    line-height: 1.5;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .Search .tags p {
+    color: rgb(24, 22, 153);
+  }
+}

@@ -1,0 +1,18 @@
+.ImageUpload form {
+  padding-bottom: 15px;
+  /* new changes */
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ImageUpload form textarea {
+  height: 300px;
+  font-size: 24px;
+  padding-top: 50px;
+  /*new changes */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
